@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ZONA NYAMAN</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>h1 {text-align: center}img {float: left}</style>
+</head>
+<body>
+<h1 style="background-color: blueviolet;font-family:poppin;color: beige;" >  TIPS & TRICK CARA MENDEKATI COWO </h1>
+<h2>5 Cara Ampuh Mendekati Cowok yang Kita Suka </h2> 
+<img src="https://img.freepik.com/free-vector/holding-hands-concept-illustration_114360-8448.jpg?size=626&ext=jpg&ga=GA1.1.700165094.1695694581&semt=sph" width="370" style="margin-right: :10px;">
+<p style="text-align: justify; font-size: 20px;">
+    <br> Jadi perempuan itu tidak enak ya? Karena kalau suka sama orang, nggak bisa langsung bilang? Katanya lagi, perempuan memang ditakdirkan cuma untuk menunggu.
+    <br> Gak ada yang salah dari menyukai seorang cowok, karena pada dasarnya cewek pun berhak melakukan pendekatan dengan cowok manapun yang ia taksir. Gak melulu harus cowok duluan yang mendekati, cewek juga bisa melakukannya jika berani. 
+
+<br> Meskipun cewek boleh-boleh saja mendekati cowok lebih dulu, tetap harus menjaga sikap dan dekatilah dengan cara elegan, ya! Karena menjaga harga diri sebagai wanita itu penting, dan berikut ini adalah beberapa cara elegan yang bisa kamu coba untuk mendekati cowok yang ditaksir. <br> Sama cowok dan berencana pengin deketin duluan itu enggak masalah kok, karena sebenarnya cowok pun pengin kita sebagai cewek juga berusaha dan enggak hanya duduk diam menanti cowok yang kita taksir datangin kita.
+    
+    Tapi tetap saja, cewek yang terlalu agresif lama kelamaan bisa bikin cowoknya ilfil.
+    
+    Jadi, kita butuh strategi nih untuk deketin cowok tanpa terkesan terlalu agresif.
+    
+    Bisa ditiru nih cara di bawah ini, girls!</p>
+
+    <!--block inline-->
+    <address style="font-size: large;">Website : <a href="https://www.idntimes.com/life/women/afifah-hanim/cara-elegan-mendekati-cowok-duluan-c1c2">Tips & Trick</a></address>
+    <br>
+    <hr>
+
+    <!--list-->
+    <h2>Tips & Trick</h2>
+    <ol>
+        <li>Minta tolonglah padanya dan puji dirinya yang bisa diandalkan</li>
+        <li>Ajak ngobrol tentang apa yang dia suka</li>
+        <li>Jalin kerja sama dalam pekerjaan</li>
+        <li>Dekati temannya dulu dengan halus</li>
+        <li>Ikut kegiatan yang sama dengannya supaya dia mengenalimu</li>
+    </ol>
+    <hr>
+
+    <!--Table-->
+    <h2>Rekomendasi Tempat</h2>
+    <table>
+        <tr>
+            
+        </tr>
+    </table>
+</body>
+</html>
