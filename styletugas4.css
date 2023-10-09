@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+}
+img { 
+    width: 80%;
+    image-resolution: 100%;
+}
+body {
+    background-color:grey;
+}
+h1-judul{
+    color: beige;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin: 40px 30px;
+}
+h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: azure;
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 900px;
+}
+d1{
+    line-height: 30px;
+    font-size: larger;
+}
+dt{
+    font-family: 'Lucida Sans';
+    background-color: beige;
+    margin-top: 30px;
+    padding: 5px;
+}
+dd{
+    background-color: brown;
+    font-family: monospace;
+    font-size: 18px;
+    text-indent: 40px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding: 20px;
+}
+.koleksi-koleksi {
+    width: 900px;
+    margin: 30px auto;
+}
+d1 img {
+    background-color: beige;
+    width: 100px;
+    /*border-top-left-radius: 50px*/
+    border-radius: 100px;
+    float: left;
+    /*margin-top: 10px;
+    margin-right: 20px*/
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+}
+.clear {
+    clear: left;
+}
+.footer {
+    margin-left: 100px;
+    text-align: center;
+}
+
