@@ -1,0 +1,429 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* navbar start */
+.navbar{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 4%;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.navbar .logo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+}
+
+.navbar .logo a{
+    margin-left: 2rem;
+    font-weight: 700;
+    color: #080808;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.navbar .logo img{
+    width: 3rem;
+}
+.navbar .navbar-nav{
+    display: flex;
+}
+
+
+.navbar .navbar-nav a{
+    display: inline-block ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    color: #020202;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.info a {
+    color: #020202;
+    padding-left: 30px;
+}
+
+.menu {
+    font-size: 2rem;
+    color: #020202;
+}
+
+#menu{
+    display: none;
+}
+
+.menu{
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+}
+/* navbar end */
+/* home start */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://s3.ap-southeast-1.amazonaws.com/assets.femaledaily.com/images/user-review/Saff-%26-Co.--Extrait-de-Parfum--imgfdn-034cb82d-a96b-46fe-a505-ea9d018e437c-2464014-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}   
+
+.home-one{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.home-one h1{
+    font-size: 7rem;
+}
+
+.home-one p{
+    font-size: 2rem;
+}
+
+.home-one button,
+.home-one a{
+    margin-top: 1rem;
+    border: none;
+    padding: 7px 5px;
+    border-radius: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.img-dua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-dua h1{
+    margin-bottom: 2rem;
+}
+
+.di img{
+    padding: 20px;
+    width: 700px;
+    border-radius: 10%;
+}
+
+.deksripsi{
+    padding: 50px;
+}
+
+.deksripsi p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.deksripsi a{
+    margin-top: 2rem;
+    background: #c9bdbd;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: #020202;
+    text-decoration: none;
+}
+.visi-misi{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem;
+
+}
+
+.visi-misi h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.visi-misi p{
+    font-size: 20px;
+}
+.visi-misi img{
+    width: 25rem;
+    margin-right: 2rem;
+    border-radius: 200px 100px 20px 105px;
+}
+
+
+.history{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20rem;
+
+}
+
+.history h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.history p{
+    font-size: 20px;
+}
+
+.history img{
+    width: 25rem;
+    margin-right: 2rem;
+    border-radius: 100px 230px 300px 100px;
+}
+
+/* slider */
+.kol-one {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.kol {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.pol h2{
+    /* margin: 2px 2%; */
+    font-size: 15px;
+}
+
+.pol img{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.pol img:hover {
+    transform: scale(0.8);
+    transition: all 0.55s ease-in-out;
+}
+
+.pol-one {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.pol-one h2{
+    margin: 2px 2%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pol-one img{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.pol-one img:hover {
+    transform: scale(0.8);
+    transition: all 0.55s ease-in-out;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.contact .contact-tittle{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact .contact-icon i{
+    margin: 2rem;
+    background-color: #020202;
+    /* padding: 3rem; */
+    color: #fff;
+    padding: 12px;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(img/loui1.jpeg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 4rem;
+}
+
+.shop-tittle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.shop-tittle h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.shop-tittle p{
+    font-size: 1.4rem;
+}
+
+.shop .shop-link a{
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ffffff0d;
+    padding: 7px 9px;
+    border-radius: 5px;
+}
+
+.shop-link a:hover{
+    border: 1px solid #fff;
+}
+
+.footer{
+    background-color: #0808081d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding-bottom: 3rem;
+}
+
+.footer-info{
+    display: flex;
+}
+
+.footer-info .info{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.footer-info .info h5{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.footer-info .info p{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+.copyright{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between;    */
+}
+
+.copyright .pt p{
+    left: 0;
+}
+
+.copyright .cr p{
+    right: 0;
+}
+
+
+
+@media screen and (max-width: 1366px) {
+    html{
+        font-size: 75%;
+    }
+
+    .hero-section{
+        width: 1366px;
+    }
+
+    #menu{
+        display: inline-block;
+    }
+
+    .menu{
+        color: black;
+    }
+
+    .navbar{
+        padding: 1.8rem 4%;
+    }
+
+    .navbar .navbar-nav{
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+    }
+
+    .navbar .navbar-nav.active{
+        right: 0;
+        transition: 1s;
+    }
+
+    .navbar .navbar-nav a{
+        font-size: large;
+        color: #020202;
+        display: block;
+        margin: 1.4rem;
+    }
+
+    
+}
